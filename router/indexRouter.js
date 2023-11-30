@@ -1,5 +1,4 @@
 import  {Router}  from 'express';
-//import citiesRouter from './citiesRouter.js';
 import postRouter from './postRouter.js'
 import userRouter from './userRouter.js'
 import commentRouter from './commentRouter.js';

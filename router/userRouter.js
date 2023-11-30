@@ -7,7 +7,7 @@ const {getAllUsers,getUserById,createUser,updateUser,deleteUser} = userControlle
 userRouter.get('/',getAllUsers);
 userRouter.post('/',createUser);
 userRouter.get('/:id',getUserById);
-// userRouter.put( '/:id', updateUser);
+userRouter.put( '/:id', updateUser);
 userRouter.delete( '/:id', deleteUser);
 
 

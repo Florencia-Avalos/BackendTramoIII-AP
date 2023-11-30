@@ -7,7 +7,7 @@ const {getAllPosts,getPostById,createPost,updatePost,deletePost} = postControlle
 postRouter.get('/',getAllPosts);
 postRouter.post('/',createPost);
 postRouter.get('/:id',getPostById);
-// postRouter.put( '/:id', updatePost);
+postRouter.put( '/:id', updatePost);
 postRouter.delete( '/:id', deletePost);
 
 
