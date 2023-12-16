@@ -14,13 +14,13 @@ const postSchema = Schema(
     },
     author: {
       type: mongoose.Schema.Types.ObjectId,
-      ref: "User", // Referencia al modelo User
+      ref: "User",
       required: true,
     },
     comments: [
       {
         type: mongoose.Schema.Types.ObjectId,
-        ref: "Comment", // Referencia al modelo Comment
+        ref: "Comment", 
       },
     ],
     imageURL: {

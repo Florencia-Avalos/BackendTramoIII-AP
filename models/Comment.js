@@ -6,13 +6,13 @@ const commentSchema = Schema(
   {
     author: {
         type: mongoose.Schema.Types.ObjectId,
-        ref: 'User', // Referencia al modelo User
+        ref: 'User', 
         required: true
     },
 
     post: {
       type: mongoose.Schema.Types.ObjectId,
-      ref: 'post', // Referencia al modelo User
+      ref: 'post',
       required: true
   },
 
